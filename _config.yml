@@ -1,4 +1,5 @@
-baseurl: '/'
+url: "https://www.ntwo.ai"
+baseurl: ''
 permalink: pretty
 title: 'Neural Nurture'
 
