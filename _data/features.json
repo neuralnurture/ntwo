@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Free Consultation",
+    "description": "Get personalized guidance on how AI-powered learning can support your students, school, or organization — no strings attached.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Early Access to Tools",
+    "description": "Be among the first to try our latest AI learning products and features before public launch.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Custom Collaboration Opportunities",
+    "description": "Partner with us to co-develop AI learning solutions tailored to your community’s unique educational needs.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

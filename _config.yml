@@ -1,7 +1,51 @@
-title: Neural Nurture
-description: We are a cutting edge AI research lab from India.
-baseurl: "" 
-url: "https://www.ntwo.ai"
-remote_theme: pages-themes/cayman@v0.2.0
+baseurl: '/'
+permalink: pretty
+title: 'Neural Nurture'
+
+logo:
+  mobile: "images/logo/nn-small-logo.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/logo/nn-large-logo.svg"
+  desktop_height: "31px"
+  desktop_width: "246px"
+
+home: 
+  limit_services: 6
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md
