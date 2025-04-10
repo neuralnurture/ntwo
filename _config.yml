@@ -36,8 +36,14 @@ defaults:
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
-plugins:
-  - jekyll-environment-variables
+#plugins:
+#  - jekyll-environment-variables
+
+env:
+  MODE: "production"
+  FEATURE_FLAG: true
+  API_URL: "https://api.ntwo.ai"
+  NETLIFY_GOOGLE_ANALYTICS_ID: "G-Y45VVZJ240"  
 
 exclude:
   - Gemfile
