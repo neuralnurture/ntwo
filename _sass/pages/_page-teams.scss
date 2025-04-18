@@ -39,13 +39,14 @@
     padding: 30px;
     border-radius: 3px;
     .team-image {
-      height: 90px;
-      width: 90px;
+      height: 175px;
+      width: auto;
       margin-right: 20px;
       border-radius: 50%;
       overflow: hidden;
       img {
-        width: 90px;
+        width: 175px;
+        height: auto;
       }
     }
   }

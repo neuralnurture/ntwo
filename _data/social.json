@@ -6,12 +6,17 @@
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/vijaydaultani",
+    "link": "https://x.com/NeuralNurture",
     "image": "images/social/twitter.svg"
   },
   {
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/vijaydaultani/",
-      "image": "images/social/facebook.svg"
+      "link": "https://www.linkedin.com/company/neuralnurture",
+      "image": "images/social/linkedin.svg"
   },
+  {
+    "name": "Youtube",
+    "link": "https://www.youtube.com/@NeuralNurture",
+    "image": "images/social/youtube.svg"
+  }
 ]
