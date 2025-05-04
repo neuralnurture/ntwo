@@ -1,7 +1,7 @@
 ---
 title: "Research Guest Lectures"
 weight: 1
-layout: service
+layout: page
 ---
 
 Our experienced researchers deliver engaging lectures, seminars, and short courses that introduce students to the principles of conducting research, evaluating models, and publishing in top-tier venues. These sessions are ideal for departments looking to supplement their curriculum with research-oriented instruction in AI, ML, and related domains.

@@ -1,7 +1,7 @@
 ---
 title: "Research Consulting Services"
 weight: 3
-layout: service
+layout: page
 ---
 
 Have a complex research problem that could benefit from AI or ML expertise? Neural Nurture provides research consulting services to help organizations, startups, and academic collaborators design, prototype, and solve research-driven challenges using state-of-the-art machine learning techniques.

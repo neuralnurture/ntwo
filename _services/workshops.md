@@ -1,7 +1,7 @@
 ---
 title: "Research Workshops"
 weight: 2
-layout: service
+layout: page
 ---
 
 At Neural Nurture, we offer hands-on Research Workshops and Bootcamps tailored for both colleges and industry teams looking to upskill in the latest AI and ML research methodologies. These programs are ideal for teams looking to build strong foundations in AI or dive deeper into advanced, research-focused topics like Natural Language Processing and Computer Vision.
