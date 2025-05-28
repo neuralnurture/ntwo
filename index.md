@@ -1,7 +1,7 @@
 ---
 title: Neural Nurture Home
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Neural Nurture is a research lab focused on advancing AI through cutting-edge research in Machine Learning, NLP, and Computer Vision. We combine academic excellence with practical applications to drive innovation in artificial intelligence.
 intro_image: "images/illustrations/teaching.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
