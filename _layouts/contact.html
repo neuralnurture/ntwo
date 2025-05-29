@@ -4,14 +4,119 @@ layout: default
 bodyClass: "page-contact"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
-            <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                {% include call.html show_button=false %}
-                <div class="content mt-4">{{content}}</div>
-            </div>
+<div class="container">
+  <div class="row equal-height">
+    <!-- Left Column -->
+    <div class="col-md-6">
+      <div class="content-box h-100">
+        <h3 class="mb-3">Office Address</h3>
+        <div class="address-card mb-5">
+          {{ page.address | markdownify }}
         </div>
+        
+        <h3 class="mb-3">Location</h3>
+        <div class="map-container">
+          <iframe 
+            src="{{ page.map_link }}"
+            width="100%" 
+            height="370px" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
     </div>
+
+    <!-- Right Column -->
+    <div class="col-md-6">
+      <div class="content-box h-100">
+        <h3 class="mb-3">Get in Touch</h3>
+        <div class="contact-form-section h-100">
+          <form action="{{ page.form_url }}" method="POST">
+            <div class="form-group mb-4">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+
+            <div class="form-group mb-4">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group mb-4">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" style="height: 150px;" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<style>
+.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.address-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.map-container {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.contact-form-section {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 12px 25px;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+@media (max-width: 767px) {
+  .content-box {
+    margin-bottom: 2rem;
+  }
+  
+  .map-container {
+    margin-bottom: 2rem;
+  }
+}
+</style>
