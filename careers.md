@@ -8,26 +8,20 @@ positions:
     location: Indore, India
     mode: On-site
     qualifications:
-      - Currently pursuing a Bachelor's, Master's, or PhD in Computer Science, Machine Learning, Applied Mathematics, or a related field
-      - Proficiency in programming languages such as Python, Java, C++, or other relevant languages
-      - Strong foundational knowledge of core machine learning concepts and mathematical principles
-      - Strong background in Natural Language Processing and Deep Learning
-      - Experience with Deep Learning frameworks (e.g., PyTorch, TensorFlow)
-      - Ability to work independently and collaboratively in a fast-paced environment
-      - Passion for research and a curiosity-driven mindset
+      - Pursuing CS, ML, or related degree (Bachelor's/Master's/PhD)
+      - Strong programming skills in Python or similar languages
+      - Experience with NLP and deep learning frameworks
+      - Collaborative mindset and passion for research
     link: /careers/research-intern-nlp/
     
   - title: Research Intern — Computer Vision
     location: Indore, India
     mode: On-site
     qualifications:
-      - Currently pursuing a Bachelor's, Master's, or PhD in Computer Science, Machine Learning, Applied Mathematics, or a related field
-      - Proficiency in programming languages such as Python, Java, C++, or other relevant languages
-      - Strong foundational knowledge of core machine learning concepts and mathematical principles
-      - Strong background in Computer Vision and Deep Learning
-      - Experience with Deep Learning frameworks (e.g., PyTorch, TensorFlow)
-      - Ability to work independently and collaboratively in a fast-paced environment
-      - Passion for research and a curiosity-driven mindset
+      - Pursuing CS, ML, or related degree (Bachelor's/Master's/PhD)
+      - Strong programming skills in Python or similar languages
+      - Experience with Computer Vision and deep learning frameworks
+      - Collaborative mindset and passion for research
     link: /careers/research-intern-cv/
 ---
 
