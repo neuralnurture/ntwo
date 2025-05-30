@@ -5,21 +5,18 @@ main:
   - name: "Team"
     url: "/team/"
     weight: 2
-  - name: "Research"
-    url: "/research/"
-    weight: 3
   - name: "Services"
     url: "/services/"
-    weight: 4
+    weight: 3
   - name: "Careers"
     url: "/careers/"
-    weight: 5
+    weight: 4
   - name: "About"
     url: "/about/"
-    weight: 6
+    weight: 5
   - name: "Contact"
     url: "/contact/"
-    weight: 7
+    weight: 6
 
 footer:
   - name: "Contact"
