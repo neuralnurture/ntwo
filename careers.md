@@ -30,7 +30,6 @@ positions:
 At Neural Nurture, we're pushing the boundaries of artificial intelligence through innovative research and practical applications. We're looking for curious minds and passionate innovators to join our journey.
 
 ## Current Openings
-
 <div class="job-cards">
 {% for position in page.positions %}
   <div class="job-card">
