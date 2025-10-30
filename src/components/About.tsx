@@ -24,12 +24,8 @@ export default function About() {
         <p className="text-xl text-gray-600 text-center mb-16">Building the future of AI, one innovation at a time</p>
         
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg text-gray-600 text-center mb-10 leading-relaxed">
-            Neural Nurture is in active development, building AI solutions that bridge academic research and industry needs. Founded in 2024 by Tokyo Institute of Technology alumni with extensive experience at Amazon, Rakuten, and Toyota, we combine academic rigor with industry pragmatism.
-          </p>
-          
           <p className="text-lg text-gray-600 text-center mb-12 leading-relaxed">
-            Our founders bring world-class education from institutions including Tokyo Institute of Technology, UC Berkeley, IIT Delhi and Illinois State University. With over 18 years of combined experience and 10+ publications in prestigious international conferences including CVPR, WACV, ISNN, and ICSC, we are uniquely positioned to tackle complex AI challenges.
+          Neural Nurture is in stealth mode, building AI solutions that bridge academic research and industry needs. Founded in 2025 by Tokyo Institute of Technology alumni with extensive experience at Amazon, Rakuten, and Toyota, we combine academic rigor with practical industry insight. Our founders bring world-class education from premier institutes, over 18 years of combined experience and 10+ publications in prestigious international conferences including CVPR, WACV, ISNN, and ICSC, we are uniquely positioned to tackle complex AI challenges.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mt-12">

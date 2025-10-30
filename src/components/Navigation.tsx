@@ -48,7 +48,7 @@ export default function Navigation() {
               <li><a href="#home" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a></li>
               <li><a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">About</a></li>
               <li><a href="#team" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Team</a></li>
-              <li><a href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Services</a></li>
+              <li><a href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Collaboration</a></li>
               <li><a href="#careers" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Careers</a></li>
               <li><a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</a></li>
             </ul>
