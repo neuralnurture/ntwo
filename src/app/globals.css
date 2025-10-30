@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Navigation */
+body.dark-mode nav {
+  background: rgba(15, 23, 42, 0.9) !important;
+  border-bottom: 1px solid #1e293b;
+}
+
+body.dark-mode nav a {
+  color: #94a3b8 !important;
+}
+
+body.dark-mode nav a:hover {
+  color: #3b82f6 !important;
+}
+
+body.dark-mode nav button {
+  background: #1e293b !important;
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode nav button:hover {
+  background: #334155 !important;
+}
+
+/* Hero Section */
+body.dark-mode #home {
+  background: linear-gradient(180deg, 
+    #1e3a8a 0%, 
+    #312e81 15%,
+    #1e293b 30%,
+    #1e293b 100%) !important;
+}
+
+body.dark-mode #home h1,
+body.dark-mode #home p {
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode #home .text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+/* Sections */
+body.dark-mode section {
+  background: #0f172a !important;
+}
+
+body.dark-mode section.bg-gray-50 {
+  background: #1e293b !important;
+}
+
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode p,
+body.dark-mode .text-gray-600,
+body.dark-mode .text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+/* Cards */
+body.dark-mode div[class*="bg-white"] {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+body.dark-mode div[class*="border-gray"] {
+  border-color: #334155 !important;
+}
+
+/* Forms */
+body.dark-mode input,
+body.dark-mode textarea {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* Gradient backgrounds in dark mode */
+body.dark-mode div[class*="from-blue-100"] {
+  background: linear-gradient(to bottom right, #1e3a8a, #312e81) !important;
+  border-color: #1e40af !important;
+}
+
+/* Footer - already dark, no changes needed */
+
+/* Buttons - keep their gradient colors as is in dark mode */
+
+/* Links */
+body.dark-mode .text-blue-600 {
+  color: #3b82f6 !important;
+}
+
+/* Logo inversion for PNG in dark mode */
+.logo-mark {
+  filter: none;
+}
+
+body.dark-mode .logo-mark {
+  filter: invert(1) brightness(1.1);
+}
