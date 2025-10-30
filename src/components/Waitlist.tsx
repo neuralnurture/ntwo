@@ -5,16 +5,36 @@ import { useState } from 'react'
 export default function Waitlist() {
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const formspreeWaitlistEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_WAITLIST || 'https://formspree.io/f/xwpwqaqo'
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    
-    // Here you would integrate with your backend or email service
-    // For now, we'll just show a success message
-    setSubmitted(true)
-    setEmail('')
-    
-    setTimeout(() => setSubmitted(false), 5000)
+    setError(null)
+
+    try {
+      const formData = new FormData()
+      formData.append('email', email)
+      formData.append('source', 'waitlist')
+
+      const response = await fetch(formspreeWaitlistEndpoint, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      })
+
+      if (!response.ok) {
+        throw new Error('Submission failed')
+      }
+
+      setSubmitted(true)
+      setEmail('')
+      setTimeout(() => setSubmitted(false), 5000)
+    } catch (err) {
+      setError('Something went wrong. Please try again later.')
+      // eslint-disable-next-line no-console
+      console.error('Waitlist submission error:', err)
+    }
   }
 
   return (
@@ -43,6 +63,7 @@ export default function Waitlist() {
               <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto mb-8">
                 <input 
                   type="email" 
+                  name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email" 
@@ -56,6 +77,12 @@ export default function Waitlist() {
                   Join Waitlist
                 </button>
               </form>
+            )}
+
+            {error && (
+              <div className="bg-red-100 border border-red-400 text-red-700 px-6 py-3 rounded-lg mb-6">
+                {error}
+              </div>
             )}
 
             <div className="flex justify-center gap-12 pt-8 border-t border-blue-200/50">
