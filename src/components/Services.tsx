@@ -25,7 +25,7 @@ export default function Services() {
         
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-gray-600 text-center leading-relaxed">
-            While we focus on developing our core AI products, we collaborate with select universities and organizations to advance the broader AI ecosystem. For universities, we conduct workshops and training programs that foster research-oriented learning within academic curricula. For industry partners, we help integrate AI into existing products and workflows. Drawing from our experience at Amazon, Rakuten, and Toyota, we provide strategic consulting and hands-on guidance to help teams harness cutting-edge AI effectively.
+            While we focus on developing our core AI products, we collaborate with select universities and organizations to advance the broader AI ecosystem.
           </p>
         </div>
         

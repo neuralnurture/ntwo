@@ -44,10 +44,13 @@ Edit `.env.local` with your credentials:
 
 ```env
 # Google Analytics
-NEXT_PUBLIC_GA_MEASUREMENT_ID=G-Y45VVZJ240
+NEXT_PUBLIC_GA_MEASUREMENT_ID=your_ga_measurement_id
 
-# Formspree (Get from https://formspree.io)
-NEXT_PUBLIC_FORMSPREE_ENDPOINT=https://formspree.io/f/mzzelegy
+# Formspree Contact Form
+NEXT_PUBLIC_FORMSPREE_ENDPOINT=your_formspree_endpoint
+
+# Formspree Waitlist Form
+NEXT_PUBLIC_FORMSPREE_WAITLIST=your_waitlist_endpoint
 ```
 
 **Note:** These values are already configured as fallbacks in the code, so the site will work even without the `.env.local` file.

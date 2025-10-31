@@ -141,11 +141,16 @@ body.dark-mode .text-blue-600 {
   color: #3b82f6 !important;
 }
 
-/* Logo inversion for PNG in dark mode */
+/* Logo inversion for PNG in dark mode - Header */
 .logo-mark {
   filter: none;
 }
 
 body.dark-mode .logo-mark {
+  filter: invert(1) brightness(1.1);
+}
+
+/* Logo for Footer - Always inverted (white lines on dark background) */
+.logo-mark-footer {
   filter: invert(1) brightness(1.1);
 }
