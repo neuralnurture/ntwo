@@ -89,14 +89,14 @@ export default function Navigation() {
 
         {/* Mobile menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 dark:border-gray-700">
+          <div className={`md:hidden mt-4 pb-4 border-t ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}>
             <ul className="flex flex-col gap-4 pt-4">
-              <li><a href="#home" onClick={closeMobileMenu} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 font-medium transition-colors block">Home</a></li>
-              <li><a href="#about" onClick={closeMobileMenu} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 font-medium transition-colors block">About</a></li>
-              <li><a href="#team" onClick={closeMobileMenu} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 font-medium transition-colors block">Team</a></li>
-              <li><a href="#services" onClick={closeMobileMenu} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 font-medium transition-colors block">Collaboration</a></li>
-              <li><a href="#careers" onClick={closeMobileMenu} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 font-medium transition-colors block">Careers</a></li>
-              <li><a href="#contact" onClick={closeMobileMenu} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 font-medium transition-colors block">Contact</a></li>
+              <li><a href="#home" onClick={closeMobileMenu} className={`${darkMode ? 'text-white' : 'text-gray-900'} hover:text-blue-600 font-medium transition-colors block`}>Home</a></li>
+              <li><a href="#about" onClick={closeMobileMenu} className={`${darkMode ? 'text-white' : 'text-gray-900'} hover:text-blue-600 font-medium transition-colors block`}>About</a></li>
+              <li><a href="#team" onClick={closeMobileMenu} className={`${darkMode ? 'text-white' : 'text-gray-900'} hover:text-blue-600 font-medium transition-colors block`}>Team</a></li>
+              <li><a href="#services" onClick={closeMobileMenu} className={`${darkMode ? 'text-white' : 'text-gray-900'} hover:text-blue-600 font-medium transition-colors block`}>Collaboration</a></li>
+              <li><a href="#careers" onClick={closeMobileMenu} className={`${darkMode ? 'text-white' : 'text-gray-900'} hover:text-blue-600 font-medium transition-colors block`}>Careers</a></li>
+              <li><a href="#contact" onClick={closeMobileMenu} className={`${darkMode ? 'text-white' : 'text-gray-900'} hover:text-blue-600 font-medium transition-colors block`}>Contact</a></li>
             </ul>
           </div>
         )}
