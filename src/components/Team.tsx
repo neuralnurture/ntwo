@@ -12,7 +12,7 @@ export default function Team() {
     {
       id: 'vijay',
       initials: 'VD',
-      name: 'Vijay Daultani',
+      name: 'Dr. Vijay Daultani',
       title: 'Co-Founder | NLP Expert',
       photo: vijayPhoto,
       bio: "Vijay completed his PhD in Natural Language Processing at the Tokyo Institute of Technology in 2024, focusing on linguistic acceptability modeling. From 2021 to 2023, he was Group Manager for NLP at Rakuten, leading initiatives in E-Commerce, Finance, and Travel. From 2019 to 2021, he served as Senior Technical Program Manager at Amazon Japan, managing ML projects across 13 countries. He holds an M.Tech from IIT Delhi and a Computer Science degree from TCET Indore, with expertise in NLP, deep learning, and applied AI."
@@ -20,7 +20,7 @@ export default function Team() {
     {
       id: 'dinesh',
       initials: 'DD',
-      name: 'Dinesh Daultani',
+      name: 'Dr. Dinesh Daultani',
       title: 'Co-Founder | Computer Vision Expert',
       photo: dineshPhoto,
       bio: "Dinesh completed his PhD from the Tokyo Institute of Technology, Japan in 2024. His PhD focused on narrowing the performance gap across diverse computer vision tasks, bridging the disparity between real-world and pristine/clean images. Previously, he worked at Woven by Toyota as a Data Scientist in the autonomous driving team from 2021 to 2022. He worked at Rakuten as a Research Scientist from 2018 to 2021, utilizing deep learning, machine learning, and reinforcement learning to solve computer vision, finance, cybersecurity, and e-commerce research problems. He received his Master of Science in Information Systems from Illinois State University in 2015 and his Bachelor of Engineering in Computer Science from CDGI, Indore in 2010."
